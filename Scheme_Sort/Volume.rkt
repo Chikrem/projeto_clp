@@ -1,0 +1,17 @@
+#lang scheme
+
+
+(define pi 3.14)           ;; definir pi igual a 3.14
+
+(define( volume r)         ;; definir cálculo do volume
+  (*(/ 4 3) pi r r r))     ;; R x R x R x PI x 4/3
+
+
+(display "Digite o tamanho do raio: ")
+(define r (read))
+(display "O volume da esfera é: ")
+(display (volume r))
+
+
+
+
